@@ -15,18 +15,21 @@
  
 ## ✅ Requerimientos
 1. Tener instalado Arduino IDE [Ver Arduino IDE](https://www.arduino.cc/en/software/)
-2. Descargar e instalar DigiStump Board 1.6.7 a traves del Boards Manager de Arduino (Configuración)
+2. Instala los drivers que se encuentran en la carpeta config del repositorio (también puedes buscarlos manualmente si lo prefieres)
+3. Descargar e instalar DigiStump Board 1.6.7 a traves del Boards Manager de Arduino (Configuración de Arduino)
 ```
    https://raw.githubusercontent.com/digistump/arduino-boards-index/refs/heads/master/package_digistump_index.json
 ```
-3. Copiar la carpeta DigisparkKeyboard del repositorio y pegarla en:
+<img width="1006" height="672" alt="imagen" src="https://github.com/user-attachments/assets/8a467877-c94f-439b-af3d-14c5fcf3aba8" />
+
+4. Copiar la carpeta DigisparkKeyboard del repositorio y pegarla en:
 ```
 C:\Users\tu_usuario\AppData\Local\Arduino15\packages\digistump\hardware\avr\1.6.7\libraries\
 ```
-4. Descargar e instalar la herramienta Hoaxshell de su repositorio oficial (Seguir los pasos del repositorio):
+5. Descargar e instalar la herramienta Hoaxshell de su repositorio oficial (Seguir los pasos del repositorio):
 ```
 git clone https://github.com/t3l3machus/hoaxshell
-```
+``
 
 
 ## 🚀 Uso
