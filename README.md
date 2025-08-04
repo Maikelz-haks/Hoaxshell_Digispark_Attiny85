@@ -23,11 +23,11 @@
 ```
 C:\Users\tu_usuario\AppData\Local\Arduino15\packages\digistump\hardware\avr\1.6.7\libraries\
 ```
-4. Descargar e instalar la herramienta Hoaxshell de su repositorio oficial:
+4. Descargar e instalar la herramienta Hoaxshell de su repositorio oficial (Seguir los pasos del repositorio):
 ```
 git clone https://github.com/t3l3machus/hoaxshell
 ```
-*Seguir los pasos de instalación y configuración propias del repositorio oficial de hoaxshell* 
+
 
 ## 🚀 Uso
 
