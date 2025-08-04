@@ -1,5 +1,5 @@
 ## 📄 Descripción
-Script para **DigiSpark ATtiny85** que genera una shell inversa con permisos elevados desde una máquina Windows víctima hacia una máquina atacante, logrando evadir el firewall. El ataque se activa al conectar el dispositivo al puerto USB con la sesión iniciada: el DigiSpark emula un teclado e inyecta los comandos de forma automática, sin intervención del usuario, estableciendo la conexión con el servidor atacante.
+Script para **DigiSpark ATtiny85** que genera una shell inversa con permisos elevados desde una máquina Windows víctima hacia una máquina atacante, logrando evadir el firewall. El ataque se activa al conectar el dispositivo al puerto USB con la sesión iniciada: el DigiSpark emula un teclado e inyecta los comandos de forma automática, sin intervención del usuario, estableciendo la conexión con la máquina atacante.
 
 ## ⚠️ Compatibilidad 
 
