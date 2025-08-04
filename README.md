@@ -1,19 +1,19 @@
-# Descripción
+## Descripción
 > Script para **DigiSpark ATtiny85** que genera una shell inversa con permisos elevados desde una máquina Windows víctima hacia una máquina atacante, logrando evadir el firewall. 
 
 
-# Funcionamiento
+## Funcionamiento
 > El ataque se activa al conectar el dispositivo al puerto USB con la sesión iniciada: el DigiSpark emula un teclado e inyecta los comandos de forma automática, sin intervención del usuario, estableciendo la conexión con la máquina atacante la cual está escuchando solicitudes.
 
 
-# Compatibilidad 
+## Compatibilidad 
 > Solo funciona correctamente bajo las siguientes condiciones:
 - **Sistema operativo victima**: Windows 10/11
 - **Sesión activa**: Escritorio desbloqueado y sesión iniciada
 - **Distribucion de teclado victima**: Español Latam (Puedes configurar otra distribución siguiendo un paso adicional.)
 
  
-# Requerimientos
+## Requerimientos
 1. Tener instalado Arduino IDE [Ver Arduino IDE](https://www.arduino.cc/en/software/)
 2. Descargar e instalar DigiStump Board 1.6.7 a traves del Boards Manager de Arduino (Configuración)
 ```
@@ -23,7 +23,7 @@
 ```
 C:\Users\tu_usuario\AppData\Local\Arduino15\packages\digistump\hardware\avr\1.6.7\libraries\
 ```
-3. Descargar e instalar la herramienta Hoaxshell de su repositorio oficial:
+4. Descargar e instalar la herramienta Hoaxshell de su repositorio oficial:
 ```
 git clone https://github.com/t3l3machus/hoaxshell
 ```
