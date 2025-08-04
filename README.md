@@ -27,10 +27,11 @@
 C:\Users\tu_usuario\AppData\Local\Arduino15\packages\digistump\hardware\avr\1.6.7\libraries\
 ```
 *Con esto podremos cambiar la linea #define kbd_es_es del script .ino para usar la distribucion de teclado que gustes.*
+
 5. Descargar e instalar la herramienta Hoaxshell de su repositorio oficial (Seguir los pasos del repositorio):
 ```
 git clone https://github.com/t3l3machus/hoaxshell
-``
+```
 
 
 ## 🚀 Uso
