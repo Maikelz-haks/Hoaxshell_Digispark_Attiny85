@@ -10,13 +10,12 @@
 > Solo funciona correctamente bajo las siguientes condiciones:
 - **Sistema operativo victima**: Windows 10/11
 - **Sesión activa**: Escritorio desbloqueado y sesión iniciada
-- **Distribucion de teclado victima**: Español Latam (Puedes configurar otra distribución siguiendo un paso adicional.)
 
- 
+
 ## ✅ Requerimientos
 1. Tener instalado Arduino IDE [Ver Arduino IDE](https://www.arduino.cc/en/software/)
-2. Instala los drivers que se encuentran en la carpeta config del repositorio (también puedes buscarlos manualmente si lo prefieres)
-3. Descargar e instalar DigiStump Board 1.6.7 a traves del Boards Manager de Arduino (Configuración de Arduino)
+2. Instala los drivers que se encuentran en ruta config/drivers del repositorio (también puedes buscarlos manualmente si lo prefieres)
+3. Descargar e instalar DigiStump Board 1.6.7 a traves del Boards Manager de Arduino
 ```
    https://raw.githubusercontent.com/digistump/arduino-boards-index/refs/heads/master/package_digistump_index.json
 ```
