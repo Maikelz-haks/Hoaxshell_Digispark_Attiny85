@@ -1,8 +1,10 @@
 # Descripción
 > Script para **DigiSpark ATtiny85** que genera una shell inversa con permisos elevados desde una máquina Windows víctima hacia una máquina atacante, logrando evadir el firewall. 
 
-# Como funciona?
+
+# Funcionamiento
 > El ataque se activa al conectar el dispositivo al puerto USB con la sesión iniciada: el DigiSpark emula un teclado e inyecta los comandos de forma automática, sin intervención del usuario, estableciendo la conexión con la máquina atacante la cual está escuchando solicitudes.
+
 
 # Compatibilidad 
 > Solo funciona correctamente bajo las siguientes condiciones:
@@ -11,7 +13,7 @@
 - **Distribucion de teclado victima**: Español Latam (Puedes configurar otra distribución siguiendo un paso adicional.)
 
  
-## 🛠️ Requerimientos
+# Requerimientos
 1. Tener instalado Arduino IDE [Ver Arduino IDE](https://www.arduino.cc/en/software/)
 2. Descargar e instalar DigiStump Board 1.6.7 a traves del Boards Manager de Arduino (Configuración)
 ```
