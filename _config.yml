@@ -2,4 +2,4 @@ remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme
 title: HOAXSHELL X ATTINY 85 
-description: Bienvenido a la página dedicada a cómo montar una Hoaxshell con un Digispark ATtiny85, un espacio pensado para guiarte paso a paso en la creación de un dispositivo USB capaz de desplegar una shell inversa utilizando el microcontrolador Digispark, combinando técnicas de hacking ético, automatización de payloads y herramientas modernas como Hoaxshell.
+description: Convierte tu Digispark ATtiny85 en un USB que lanza una reverse shell usando Hoaxshell
